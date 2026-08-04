@@ -9,10 +9,3 @@ def find_music_files(folder):
                 full_path = os.path.join(root, file)
                 music_files.append(full_path)
     return music_files
-
-music_folder = r"C:\Users\wjhar\Music\iTunes"
-
-songs = find_music_files(music_folder)
-
-for song in songs:
-    print(song)
